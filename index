@@ -1,0 +1,641 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!--Swap our for actual link-->
+    <link rel="canonical" href="https://www.company.com">
+
+    <meta name="description" content="">
+    <meta name="keywords" content="">
+
+    <!--Social Media Display-->
+    <meta property="og:title" content=""/>
+    <meta property="og:description" content=""/>
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content=""/>
+    <meta property="og:image" content="/images/social.jpg"/>
+    <meta property="og:image:secure_url" content="/images/social.jpg"/>
+
+    <!--Favicons-->
+    <!--Use https://realfavicongenerator.net/ to generate and download your favicons-->
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png?v1">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+    <link rel="manifest" href="/site.webmanifest">
+    <meta name="msapplication-TileColor" content="#da532c">
+    <meta name="theme-color" content="#ffffff">
+
+    <!-- Preload -->
+    <link rel="preload" as="image" href="/images/landing-m.webp">
+    <link rel="preload" as="font" type="font/woff2" href="fonts/roboto-v29-latin-regular.woff2" crossorigin>
+    <link rel="preload" as="font" type="font/woff2" href="fonts/roboto-v29-latin-700.woff2" crossorigin>
+
+    <link rel="stylesheet" href="critical.css"> <!-- Only above the fold css-->
+    <link rel="stylesheet" href="root.css">
+    <link rel="stylesheet" href="/css/dark.css">
+
+
+    <link href="normalize.css" rel="stylesheet">
+      <link href="style.css" rel="stylesheet">
+
+    <!--Defer loading the whole page css-->
+    <link rel="stylesheet" href="local.css" media="print" onload="this.media='all'; this.onload=null;">
+
+    <!--If the user has javascript disbaled, load this stylesheet-->
+    <noscript>
+        <link rel="stylesheet" href="local.css">
+    </noscript>
+
+    <title>Company Name | What They Do | Town and State</title>
+</head>
+
+<!--Start of Tawk.to Script-->
+<script type="text/javascript">
+    var Tawk_API=Tawk_API||{}, Tawk_LoadStart=new Date();
+    (function(){
+    var s1=document.createElement("script"),s0=document.getElementsByTagName("script")[0];
+    s1.async=true;
+    s1.src='https://embed.tawk.to/655240f4958be55aeaaf31ce/1hokl5m64';
+    s1.charset='UTF-8';
+    s1.setAttribute('crossorigin','*');
+    s0.parentNode.insertBefore(s1,s0);
+    })();
+    </script>
+    <!--End of Tawk.to Script-->
+
+<body>
+   
+
+  <!-- ============================================ -->
+<!--                 Navigation                   -->
+<!-- ============================================ -->
+
+<header id="cs-navigation">
+    <div class="cs-container">
+        <!--Nav Logo-->
+        <a href="" class="cs-logo" aria-label="back to home">
+            <img src="logoboxing.png" alt="logo" width="210" height="29" aria-hidden="true" decoding="async">
+        </a>
+        <!--Navigation List-->
+        <nav class="cs-nav" role="navigation">
+            <!--Mobile Nav Toggle-->
+            <button class="cs-toggle" aria-label="mobile menu toggle">
+                <div class="cs-box" aria-hidden="true">
+                    <span class="cs-line cs-line1" aria-hidden="true"></span>
+                    <span class="cs-line cs-line2" aria-hidden="true"></span>
+                    <span class="cs-line cs-line3" aria-hidden="true"></span>
+                </div>
+            </button>
+            <!-- We need a wrapper div so we can set a fixed height on the cs-ul in case the nav list gets too long from too many dropdowns being opened and needs to have an overflow scroll. This wrapper acts as the background so it can go the full height of the screen and not cut off any overflowing nav items while the cs-ul stops short of the bottom of the screen, which keeps all nav items in view no matter how mnay there are-->
+            <div class="cs-ul-wrapper">
+                <ul id="cs-expanded" class="cs-ul" aria-expanded="false">
+                    <li class="cs-li">
+                        <a href="" class="cs-li-link cs-active">
+                            Accueil
+                        </a>
+                    </li>
+                    <li class="cs-li">
+                        <a href="" class="cs-li-link">
+                            A propos
+                        </a>
+                    </li>
+                    <li class="cs-li">
+                        <a href="" class="cs-li-link">
+                            Services
+                        </a>
+                    </li>
+                    
+                    
+                    <li class="cs-li">
+                        <a href="" class="cs-li-link">
+                            FAQ
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+        <a href="" class="cs-button-solid cs-nav-button">Contact</a>
+       
+    </div>
+</header>
+                           
+
+    <main id="main">
+
+
+     
+
+
+
+
+        <!-- ============================================ -->
+        <!--                    LANDING                   -->
+        <!-- ============================================ -->
+    
+        <!-- ============================================ -->
+<!--                    Hero                      -->
+<!-- ============================================ -->
+
+<!-- ============================================ -->
+<!--                    Hero                      -->
+<!-- ============================================ -->
+
+<section id="hero-1426">
+    <div class="cs-container">
+        <div class="cs-content">
+            <span class="cs-topper"> 3 places restantes</span>
+            <h1 class="cs-title">Coaching Individuel Strasbourg</h1>
+            <p class="cs-text">
+                
+                Des cours particuliers flexibles, adaptés à votre niveau et vos disponibilités.
+            </p>
+            <div class="cs-button-group">
+                <a href="" class="cs-button-solid cs-button1">Contact</a>
+                <a href="" class="cs-button-solid cs-button2">06 20 30 72 29</a>
+            </div>
+        </div>
+    </div>
+
+    <!-- Background Image -->
+    <picture class="cs-background">
+        <source media="(max-width: 600px)" srcset="heroback.png">
+        <source media="(min-width: 601px)" srcset="heroback.png">
+        <img loading="lazy" decoding="async" src="heroback.png" alt="field" width="1920" height="1200" aria-hidden="true">
+    </picture>
+</section>
+                                
+            <!-- ============================================ -->
+<!--                    Services                  -->
+<!-- ============================================ -->
+
+<section id="services-1622">
+    <div class="cs-container">
+        <ul class="cs-card-group">
+            <li class="cs-item">
+                <a href="" class="cs-link">
+                    <img class="cs-icon" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/Icons/gold-circle-check.svg" loading="lazy" decoding="async" alt="icon" width="48" height="48" aria-hidden="true">
+                    <h3 class="cs-h3">Cours d'essai offert</h3>
+                    <p class="cs-item-text">
+                        Vous profitez d'un premier cours offert !
+                    </p>
+                </a>
+            </li>
+            <li class="cs-item">
+                <a href="" class="cs-link">
+                    <img class="cs-icon" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/Icons/gold-speedometer.svg" loading="lazy" decoding="async" alt="icon" width="48" height="48" aria-hidden="true">
+                    <h3 class="cs-h3">Flexibililé horaire</h3>
+                    <p class="cs-item-text">
+                        Je m'adapte à vos disponibilités afin de trouver les créneaux qui vous conviennent le mieux !
+                    </p>
+                </a>
+            </li>
+            <li class="cs-item">
+                <a href="" class="cs-link">
+                    <img class="cs-icon" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/Icons/gold-bouy.svg" loading="lazy" decoding="async" alt="icon" width="48" height="48" aria-hidden="true">
+                    <h3 class="cs-h3">Fexibilité geographique</h3>
+                    <p class="cs-item-text">
+                        Les cours sont disposer selon le lieux de votre choix : A domicile, en extérieur ou en salle privée.
+                    </p>
+                </a>
+            </li>
+            <li class="cs-item">
+                <a href="" class="cs-link">
+                    <img class="cs-icon" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/Icons/gold-thumb.svg" loading="lazy" decoding="async" alt="icon" width="48" height="48" aria-hidden="true">
+                    <h3 class="cs-h3">100% personnalisé</h3>
+                    <p class="cs-item-text">
+                        Les cours sont 100% personnalisés selon vos objectifs, vos besoins, votre condition physique.
+                    </p>
+                </a>
+            </li>
+        </ul>
+    </div>
+</section>
+                                                    
+
+ <!-- ============================================ -->
+<!--                 Side By Side                 -->
+<!-- ============================================ -->
+
+<section id="RPsbs-74">
+    <div class="cs-container">
+        <picture class="cs-picture">
+            <source media="(max-width: 600px)" srcset="img1.jpg">
+            <source media="(min-width: 601px)" srcset="img1.jpg">
+            <img loading="lazy" decoding="async" src="img1.jpg" alt="body builder" width="500" height="552" aria-hidden="true">
+        </picture>
+        <div class="cs-content">
+            
+            <h2 class="cs-title">Apprenez A Votre Rythme</h2>
+            <p class="cs-text">
+                Quelque soit vos objectifs (Apprentissage de la boxe, remise en forme, self défense) vous êtes les bienvenues. Les cours sont adapté à votre niveau et vos objectifs.
+            </p>
+            
+        </div>
+    </div>
+</section>
+                                
+<!-- ============================================ -->
+<!--             Side By Side Reverse             -->
+<!-- ============================================ -->
+
+<section id="RPsbsr-74">
+    <div class="cs-container">
+        <picture class="cs-picture">
+            <source media="(max-width: 600px)" srcset="img2.jpg">
+            <source media="(min-width: 601px)" srcset="img2.jpg">
+            <img loading="lazy" decoding="async" src="img2.jpg" alt="body builder" width="500" height="552" aria-hidden="true">
+        </picture>
+        <div class="cs-content">
+          
+            <h2 class="cs-title">Un Entrainement Adapté</h2>
+            <p class="cs-text">
+                Les cours sont flexibles et adaptés à vos besoins et envies. Habituellement, nous commençons par du shadow boxing pour travailler la technique et nous échauffer.
+                 Ensuite, nous passons au travail aux pattes d'ours et à des exercices avec les gants pour améliorer
+                 l'attaque et la défense. Enfin, pour ceux qui sont prêts et motivés, nous terminons par 3 rounds de sparring pour mettre en pratique la théorie.
+            </p>
+            
+        </div>
+    </div>
+</section>
+                                
+                        
+
+
+
+
+
+
+
+
+
+<!-- ============================================ -->
+<!--                 Why Choose                   -->
+<!-- ============================================ -->
+
+<section id="why-choose-12">
+    <div class="cs-container">
+        <div class="cs-content">
+            
+            <h2 class="cs-title">Pourquoi Choisir Soultz Gym</h2>
+          <P></P>
+        </div>
+        <ul class="cs-card-group">
+            <li class="cs-item">
+                <picture class="cs-picture">
+                    <img loading="lazy" decoding="async" src="https://csimg.nyc3.digitaloceanspaces.com/Why-Choose/sheild.svg" alt="heart icon" width="42" height="42" aria-hidden="true">
+                </picture>
+                <h3 class="cs-h3">Personnalisés</h3>
+                <p class="cs-item-text">
+                    
+                    Les cours seront 100% adaptés à vos besoins et vos capacités. Cela vous permet une progression 3 fois plus rapide qu'en club !
+                </p>
+            </li>
+            <li class="cs-item">
+                <picture class="cs-picture">
+                    <img loading="lazy" decoding="async" src="https://csimg.nyc3.digitaloceanspaces.com/Why-Choose/toolbox.svg" alt="toolbox icon" width="42" height="42" aria-hidden="true">
+                </picture>
+                <h3 class="cs-h3">Flexible</h3>
+                <p class="cs-item-text">
+                    Vous pouvez adapter les cours à votre emplois du temps, vous choisissez un créneau entre 8h00 et 20h00 du lundi au dimanche.
+
+                </p>
+            </li>
+            <li class="cs-item">
+                <picture class="cs-picture">
+                    <img loading="lazy" decoding="async" src="https://csimg.nyc3.digitaloceanspaces.com/Why-Choose/ribbon.svg" alt="ribbon icon" width="32" height="42" aria-hidden="true">
+                </picture>
+                <h3 class="cs-h3">Economique</h3>
+                <p class="cs-item-text">
+                    
+                    Vous disposez de tarifs à moitier prix par rapport à la moyenne national. 
+                </p>
+            </li>
+        </ul>
+        
+    </div>
+</section>
+                                
+
+
+
+
+
+<!-- ============================================ -->
+<!--                   Steps                      -->
+<!-- ============================================ -->
+
+<section id="steps-889">
+    <div class="cs-container">
+        <div class="cs-content">
+            
+            <h2 class="cs-title">Je Me Lance !</h2>
+            
+        </div>
+        <ul class="cs-card-group">
+            <li class="cs-item">
+                <picture class="cs-picture">
+                    <img class="cs-icon" src="telbox.png" alt="icon" width="32" height="32" loading="lazy" decoding="async" aria-hidden="true">
+                </picture>
+                <h3 class="cs-h3">Prise de contact</h3>
+                <p class="cs-item-p">
+                    Prenez contact par téléphone, mail ou via le tchat.
+                </p>
+            </li>
+            <!--Arrow-->
+            <li class="cs-item cs-arrow" aria-hidden="true">
+                <img class="cs-arrow-img" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Icons%2Farrow-curve-right.svg" alt="icon" width="80" height="76" loading="lazy" decoding="async" aria-hidden="true">
+            </li>
+            <li class="cs-item">
+                <picture class="cs-picture">
+                    <img class="cs-icon" src="evalbox.png" alt="icon" width="32" height="32" loading="lazy" decoding="async" aria-hidden="true">
+                </picture>
+                <h3 class="cs-h3">Evaluation de votre demande</h3>
+                <p class="cs-item-p">
+                    Nous discutons ensemble de vos objectifs et je réponds à vos interogations.
+                </p>
+            </li>
+            <!--Arrow-->
+            <li class="cs-item cs-arrow" aria-hidden="true">
+                <img class="cs-arrow-img" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Icons%2Farrow-curve-right.svg" alt="icon" width="80" height="76" loading="lazy" decoding="async" aria-hidden="true">
+            </li>
+            <li class="cs-item">
+                <picture class="cs-picture">
+                    <img class="cs-icon" src="rdvbox.png" alt="icon" width="32" height="32" loading="lazy" decoding="async" aria-hidden="true">
+                </picture>
+                <h3 class="cs-h3">Prise de rendez-vous</h3>
+                <p class="cs-item-p">
+                    Nous convenons ensemble d'une date pour votre cours d'essai offert sur le lieu de votre choix.
+                </p>
+            </li>
+        </ul>
+        <a href="" class="cs-button-solid">06 29 30 72 29</a>
+    </div>
+</section>
+                                
+
+
+
+<!-- ============================================ -->
+<!--                   Pricing                    -->
+<!-- ============================================ -->
+
+<section id="pricing-1087">
+    <div class="cs-container">
+        <div class="cs-content">
+            
+            <h2 class="cs-title">Economique & Transparent </h2>
+            <p class="cs-text">
+                 Vous avez le choix entre 3 formules selon vos disponibilités et vos objectifs.
+            </p>
+        </div>
+        <ul class="cs-card-group">
+            <li class="cs-item">
+                <span class="cs-package">Challenger</span>
+                <span class="cs-price">€23</span>
+                <p class="cs-item-p">
+                    1 cours / semaine
+                </p>
+                <a href="" class="cs-button-solid cs-price-button">Prendre Rendez-Vous</a>
+                <ul class="cs-ul">
+                    <li class="cs-li">
+                        All available starter feature
+                        <img class="cs-icon" aria-hidden="true" loading="lazy" decoding="async" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Icons/mech-check.svg" alt="checkmark" width="18" height="18">
+                    </li>
+                    <li class="cs-li">
+                        Home service 24/7
+                        <img class="cs-icon" aria-hidden="true" loading="lazy" decoding="async" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Icons/mech-check.svg" alt="checkmark" width="18" height="18">
+                    </li>
+                    <li class="cs-li">
+                        Customer agent service
+                        <img class="cs-icon" aria-hidden="true" loading="lazy" decoding="async" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Icons/mech-check.svg" alt="checkmark" width="18" height="18">
+                    </li>
+                    <li class="cs-li">
+                        Professional Service
+                        <img class="cs-icon" aria-hidden="true" loading="lazy" decoding="async" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Icons/mech-check.svg" alt="checkmark" width="18" height="18">
+                    </li>
+                    <li class="cs-li cs-disabled">
+                        2 dedicated mechanic
+                        <img class="cs-icon" aria-hidden="true" loading="lazy" decoding="async" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Icons/mech-check.svg" alt="checkmark" width="18" height="18">
+                    </li>
+                    <li class="cs-li cs-disabled">
+                        Remote Service mechanic
+                        <img class="cs-icon" aria-hidden="true" loading="lazy" decoding="async" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Icons/mech-check.svg" alt="checkmark" width="18" height="18">
+                    </li>
+                </ul>
+            </li>
+            <li class="cs-item cs-popular">
+                <span class="cs-package">PRO</span>
+                <span class="cs-price">€17</span>
+                <p class="cs-item-p">
+                    2 cours / semaine
+                </p>
+                <a href="" class="cs-button-solid cs-price-button">Prendre Rendez-Vous</a>
+                <ul class="cs-ul">
+                    <li class="cs-li">
+                        All available starter feature
+                        <img class="cs-icon" aria-hidden="true" loading="lazy" decoding="async" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Icons/mech-check.svg" alt="checkmark" width="18" height="18">
+                    </li>
+                    <li class="cs-li">
+                        Home service 24/7
+                        <img class="cs-icon" aria-hidden="true" loading="lazy" decoding="async" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Icons/mech-check.svg" alt="checkmark" width="18" height="18">
+                    </li>
+                    <li class="cs-li">
+                        Customer agent service
+                        <img class="cs-icon" aria-hidden="true" loading="lazy" decoding="async" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Icons/mech-check.svg" alt="checkmark" width="18" height="18">
+                    </li>
+                    <li class="cs-li">
+                        Professional Service
+                        <img class="cs-icon" aria-hidden="true" loading="lazy" decoding="async" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Icons/mech-check.svg" alt="checkmark" width="18" height="18">
+                    </li>
+                    <li class="cs-li cs-disabled">
+                        2 dedicated mechanic
+                        <img class="cs-icon" aria-hidden="true" loading="lazy" decoding="async" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Icons/mech-check.svg" alt="checkmark" width="18" height="18">
+                    </li>
+                    <li class="cs-li cs-disabled">
+                        Remote Service mechanic
+                        <img class="cs-icon" aria-hidden="true" loading="lazy" decoding="async" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Icons/mech-check.svg" alt="checkmark" width="18" height="18">
+                    </li>
+                </ul>
+            </li>
+            <li class="cs-item">
+                <span class="cs-package">Duo</span>
+                <span class="cs-price">€12</span>
+                <p class="cs-item-p">
+                    Cours en duo
+                </p>
+                <a href="" class="cs-button-solid cs-price-button">Prendre Rendez-Vous</a>
+                <ul class="cs-ul">
+                    <li class="cs-li">
+                        All available starter feature
+                        <img class="cs-icon" aria-hidden="true" loading="lazy" decoding="async" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Icons/mech-check.svg" alt="checkmark" width="18" height="18">
+                    </li>
+                    <li class="cs-li">
+                        Home service 24/7
+                        <img class="cs-icon" aria-hidden="true" loading="lazy" decoding="async" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Icons/mech-check.svg" alt="checkmark" width="18" height="18">
+                    </li>
+                    <li class="cs-li">
+                        Customer agent service
+                        <img class="cs-icon" aria-hidden="true" loading="lazy" decoding="async" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Icons/mech-check.svg" alt="checkmark" width="18" height="18">
+                    </li>
+                    <li class="cs-li">
+                        Professional Service
+                        <img class="cs-icon" aria-hidden="true" loading="lazy" decoding="async" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Icons/mech-check.svg" alt="checkmark" width="18" height="18">
+                    </li>
+                    <li class="cs-li cs-disabled">
+                        2 dedicated mechanic
+                        <img class="cs-icon" aria-hidden="true" loading="lazy" decoding="async" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Icons/mech-check.svg" alt="checkmark" width="18" height="18">
+                    </li>
+                    <li class="cs-li cs-disabled">
+                        Remote Service mechanic
+                        <img class="cs-icon" aria-hidden="true" loading="lazy" decoding="async" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Icons/mech-check.svg" alt="checkmark" width="18" height="18">
+                    </li>
+                </ul>
+            </li>
+        </ul>
+    </div>
+    <!--Left chevron-->
+    <img class="cs-floater cs-floater1" aria-hidden="true" loading="lazy" decoding="async" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Icons/left-chevron.svg" alt="checkmark" width="121" height="272">
+    <!--Right chevron-->
+    <img class="cs-floater cs-floater2" aria-hidden="true" loading="lazy" decoding="async" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Icons/right-chevron.svg" alt="checkmark" width="121" height="272">
+</section>
+                                
+                               
+
+   
+
+
+
+
+
+
+        <!-- ============================================ -->
+<!--                     CTA                      -->
+<!-- ============================================ -->
+
+<section id="cta-51">
+    <div class="cs-container">
+        <div class="cs-content">
+           
+            <h2 class="cs-title">Prêt pour une séance découverte ?</h2>
+            <p class="cs-text">
+                
+            </p>
+            <a href="" class="cs-button-solid">Contactez-Nous</a>
+        </div>
+    </div>
+    <!-- Background Image-->
+    
+</section>
+
+
+
+
+
+
+                                
+                                
+    </main>
+
+    <!-- ============================================ -->
+    <!--                     FOOTER                   -->
+    <!-- ============================================ -->
+
+    <!-- ============================================ -->
+<!--                  Footer                      -->
+<!-- ============================================ -->
+
+<!-- ============================================ -->
+<!--                   Footer                     -->
+<!-- ============================================ -->
+
+<!-- ============================================ -->
+<!--                   Footer                     -->
+<!-- ============================================ -->
+
+<footer id="cs-footer-104">
+    <div class="cs-container">
+       
+        <span class="cs-copyright">© 2022 Copyright</span>
+    </div>
+</footer>
+                                
+                                
+                                
+
+
+    <script defer src="/nav.js"></script>
+    <script defer src="/dark.js"></script>
+    <!--
+        This script adds a class to the body after scrolling 100px
+        and we used these body.scroll styles to create some on scroll 
+        animations with the navbar
+    -->
+    <script defer>
+        document.addEventListener('scroll', (e) => { 
+            const scroll = document.documentElement.scrollTop;
+            if(scroll >= 0){
+        document.querySelector('body').classList.add('scroll')
+            } else {
+            document.querySelector('body').classList.remove('scroll')
+            }
+        });
+    </script>
+
+
+
+
+
+<script>
+
+// add classes for mobile navigation toggling
+    var CSbody = document.querySelector("body");
+    const CSnavbarMenu = document.querySelector("#cs-navigation");
+    const CShamburgerMenu = document.querySelector("#cs-navigation .cs-toggle");
+
+    CShamburgerMenu.addEventListener('click', function() {
+        CShamburgerMenu.classList.toggle("cs-active");
+        CSnavbarMenu.classList.toggle("cs-active");
+        CSbody.classList.toggle("cs-open");
+        // run the function to check the aria-expanded value
+        ariaExpanded();
+    });
+
+    // checks the value of aria expanded on the cs-ul and changes it accordingly whether it is expanded or not 
+    function ariaExpanded() {
+        const csUL = document.querySelector('#cs-expanded');
+        const csExpanded = csUL.getAttribute('aria-expanded');
+
+        if (csExpanded === 'false') {
+            csUL.setAttribute('aria-expanded', 'true');
+        } else {
+            csUL.setAttribute('aria-expanded', 'false');
+        }
+    }
+
+    // mobile nav toggle code
+    const dropDowns = Array.from(document.querySelectorAll('#cs-navigation .cs-dropdown'));
+        for (const item of dropDowns) {
+            const onClick = () => {
+            item.classList.toggle('cs-active')
+        }
+        item.addEventListener('click', onClick)
+        }
+                                
+       </script>
+
+
+
+
+
+
+
+
+
+
+<script src="object-fit-videos.js"></script>
+<script src="app.js"></script>
+</body>
+</html>
