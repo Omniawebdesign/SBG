@@ -446,12 +446,7 @@ p, h1, h2, h3, a, span{
     }
     
 
-     #cta-51:hover{
-        transition: background-color 0.9s ease;
-        
-            color: black;
-            background-color : white;
-     }
+    
    
     #cta-51 .cs-text {
         margin-bottom: 1rem;
