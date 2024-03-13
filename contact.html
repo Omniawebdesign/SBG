@@ -1,21 +1,12 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-
-<!-- Google Tag Manager -->
-<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
-new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
-j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
-'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-})(window,document,'script','dataLayer','GTM-58CFBZWR');</script>
-<!-- End Google Tag Manager -->
-    
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <!--Swap our for actual link-->
-    <link rel="canonical" href="https://www.company.com/projects">
+    <link rel="canonical" href="https://www.company.com">
 
     <meta name="description" content="">
     <meta name="keywords" content="">
@@ -29,6 +20,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
     <meta property="og:image:secure_url" content="/images/social.jpg"/>
 
     <!--Favicons-->
+    <!--Use https://realfavicongenerator.net/ to generate and download your favicons-->
     <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
     <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png?v1">
     <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
@@ -37,31 +29,48 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
     <meta name="theme-color" content="#ffffff">
 
     <!-- Preload -->
-    <link rel="preload" as="image" href="/images/cabinets2-m.jpg">
+    <link rel="preload" as="image" href="/images/landing-m.webp">
     <link rel="preload" as="font" type="font/woff2" href="fonts/roboto-v29-latin-regular.woff2" crossorigin>
     <link rel="preload" as="font" type="font/woff2" href="fonts/roboto-v29-latin-700.woff2" crossorigin>
 
-    <link rel="stylesheet" href="bike_root.css">
-    <link rel="stylesheet" href="bike_tarifs.css">
-    <link rel="stylesheet" href="bike_local.css">
+    <link rel="stylesheet" href="critical.css"> <!-- Only above the fold css-->
+    <link rel="stylesheet" href="root.css">
+    <link rel="stylesheet" href="local.css">
     <link rel="stylesheet" href="contact.css">
 
-    <!--Put analytics tag here at the bottom to prevent it from render blocking-->
 
-    <title>Company Name | Projects | Town and State</title>
+    <link href="normalize.css" rel="stylesheet">
+      <link href="style.css" rel="stylesheet">
+
+    <!--Defer loading the whole page css-->
+    <link rel="stylesheet" href="local.css" media="print" onload="this.media='all'; this.onload=null;">
+
+    <!--If the user has javascript disbaled, load this stylesheet-->
+    <noscript>
+        <link rel="stylesheet" href="local.css">
+    </noscript>
+
+    <title>Company Name | What They Do | Town and State</title>
 </head>
+
+<!--Start of Tawk.to Script-->
+<script type="text/javascript">
+    var Tawk_API=Tawk_API||{}, Tawk_LoadStart=new Date();
+    (function(){
+    var s1=document.createElement("script"),s0=document.getElementsByTagName("script")[0];
+    s1.async=true;
+    s1.src='https://embed.tawk.to/655240f4958be55aeaaf31ce/1hokl5m64';
+    s1.charset='UTF-8';
+    s1.setAttribute('crossorigin','*');
+    s0.parentNode.insertBefore(s1,s0);
+    })();
+    </script>
+    <!--End of Tawk.to Script-->
+
 <body>
+   
 
-<!-- Google Tag Manager (noscript) -->
-<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-58CFBZWR"
-height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
-<!-- End Google Tag Manager (noscript) -->
-
-    
-    <!--Screen reader skip main nav-->
-    <a class="skip" aria-label="skip to main content" href="#main">Click To Skip To Main Content</a>
-
-   <!-- ============================================ -->
+  <!-- ============================================ -->
 <!--                 Navigation                   -->
 <!-- ============================================ -->
 
@@ -102,8 +111,8 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                     
                     
                     <li class="cs-li">
-                        <a href="contact.html" class="cs-li-link">
-                            Contact
+                        <a href="" class="cs-li-link">
+                            FAQ
                         </a>
                     </li>
                 </ul>
@@ -113,182 +122,180 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
        
     </div>
 </header>
+                           
 
     <main id="main">
+
+
+     
+
+
+
 
         <!-- ============================================ -->
         <!--                    LANDING                   -->
         <!-- ============================================ -->
     
-        <section id="int-hero">
-            <h1 id="home-h">Contact</h1>
-            <picture>
-                <source media="(max-width: 600px)" srcset="contactback4.png">
-                <source media="(min-width: 601px)" srcset="contactback4.png">
-                <img aria-hidden="true"  src="contactback4.png" alt="" width="400" height="662">
-            </picture>
-        </section>
-
-
-
-
+        <!-- ============================================ -->
+<!--                    Hero                      -->
 <!-- ============================================ -->
-<!--                Contact Form                  -->
+<!-- ============================================ -->
+<!--                   Banner                     -->
 <!-- ============================================ -->
 
-<section id="cs-contact-490">
+<div id="ContactBanner-327">
     <div class="cs-container">
-        <!-- Contact Info -->
-        <div class="cs-content">
-            
-            <h2 class="cs-title">Information de <span>contact </span></h2>
-            <p class="cs-text">
-             N'hésitez pas à nous contacter si vous avez la moindre question ou si vous souhaitez prendre rendez-vous pour une séance d'essai.
-            </p>
-            
-            <!--Address-->
-            <span class="cs-header">Addresse</span>
-            <a href="" class="cs-link">
-                42 Rue de Soultz, <br>Strasbourg, 67100
-            </a>
-            <!--Email-->
-            <span class="cs-header">Email</span>
-            <a href="mailtp:info@iabuyer.com" class="cs-link">soultzboxinggym@gmail.com</a>
-            <!--Phone-->
-            <span class="cs-header">Téléphone</span>
-            <a href="tel:0767463252" class="cs-link">07 67 46 32 52</a>
-
-            <!--Social Buttons-->
-            <div class="cs-social">
-                <a class="cs-social-link" aria-label="visit google profile" href="">
-                    <img class="cs-social-img" aria-hidden="true" loading="lazy" decoding="async" src="https://csimg.nyc3.digitaloceanspaces.com/Social/google.svg" alt="google" width="11" height="11">
-                </a>
-                <a class="cs-social-link" aria-label="visit facebook profile" href="">
-                    <img class="cs-social-img" aria-hidden="true" loading="lazy" decoding="async" src="https://csimg.nyc3.digitaloceanspaces.com/Social/Facebook.svg" alt="facebook" width="6" height="11">
-                </a>
-                <a class="cs-social-link" aria-label="visit instagram profile" href="">
-                    <img class="cs-social-img" aria-hidden="true" loading="lazy" decoding="async" src="https://csimg.nyc3.digitaloceanspaces.com/Social/instagram.svg" alt="instagram" width="11" height="11">
-                </a>
-            </div>
+        <span class="cs-int-title">About Us</span>
+        <div class="cs-breadcrumbs">
+            <a href="" class="cs-link">Home</a>
+            <a href="" class="cs-link cs-active">ContactUs</a>
         </div>
-        <!-- Form -->
-        <form id="cs-form-490" name="Contact" method="POST" netlify>
-            <label>
-                Nom
-                <input required type="text" id="name-490" name="name" placeholder="Votre Nom">
+    </div>
+    <!--Background Image-->
+    <picture class="cs-background">
+        <source media="(max-width: 600px)" srcset="boxingback.png">
+        <source media="(min-width: 601px)" srcset="boxingback.png">
+        <img aria-hidden="true" loading="lazy" decoding="async" src="boxingback.png" alt="library" width="1920" height="375">
+    </picture>
+</div>
+<!-- ============================================ -->
+<!--                    Hero                      -->
+<!-- ============================================ -->
+
+
+                                
+           <!-- ============================================ -->
+<!--                   Contact                    -->
+<!-- ============================================ -->
+
+<section id="contact-1389">
+    <div class="cs-container">
+        <div class="cs-content">
+          
+            <h2 class="cs-title">Information de contact</h2>
+            <p class="cs-text">
+                N'hésitez pas à nous contacter si vous avez la moindre question ou si vous souhaitez prendre rendez-vous pour une réparation ou une simple révision.            </p>
+            <ul class="cs-ul">
+                <li class="cs-li">
+                    <picture class="cs-icon-wrapper">
+                        <img aria-hidden="true" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Icons/phone-76.svg" alt="phone icon" class="cs-icon" width="40" height="40" decoding="async">
+                    </picture>
+                    <div class="cs-flex-group">
+                        <span class="cs-header">TÉLÉPHONE</span>
+                        <a href="tel:888-4565-789
+                        " class="cs-link">+1 (888) 4565 789
+                        </a>
+                    </div>
+                </li>
+                <li class="cs-li">
+                    <picture class="cs-icon-wrapper">
+                        <img aria-hidden="true" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Icons/mail-76.svg" alt="address icon" class="cs-icon" width="40" height="40" decoding="async">
+                    </picture>
+                    <div class="cs-flex-group">
+                        <span class="cs-header">EMAIL</span>
+                        <a href="mailto:Email@stitch.com" class="cs-link">Email@stitch.com</a>
+                    </div>
+                </li>
+                <li class="cs-li">
+                    <picture class="cs-icon-wrapper">
+                        <img aria-hidden="true" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Icons/pin-76.svg" alt="address icon" class="cs-icon" width="40" height="40" decoding="async">
+                    </picture>
+                    <div class="cs-flex-group">
+                        <span class="cs-header">ADDRESSE</span>
+                        <a href="" class="cs-link">42 rue de Soultz <br>
+                            Strasbourg, 67100</a>
+                    </div>
+                </li>
+            </ul>
+        </div>
+        <!--Form-->
+        <form class="cs-form" id="cs-form-1389" name="Contact Form" method="post">
+            <h3 class="cs-h3"></h3>
+            <label class="cs-label">
+                Votre nom
+                <input class="cs-input" required type="text" id="name-1389" name="name" placeholder="Name">
             </label>
-            <label>
-                Email
-                <input required type="text" id="email-490" name="email" placeholder="Votre mail">
+            <label class="cs-label cs-email">
+                Votre mail
+                <input class="cs-input" required type="email" id="email-1389" name="email" placeholder="Email">
             </label>
-            <label>
-                Téléphone
-                <input required type="text" id="phone-490" name="phone" placeholder="Votre numéro">
+            <label class="cs-label cs-phone">
+                Votre numéro
+                <input class="cs-input" required type="number" id="phone-1389" name="phone" placeholder="Phone">
             </label>
-            
-            <label class="cs-label-message">
-                Message
-                <textarea required name="Message" id="message-490" placeholder="Message..."></textarea>
+            <label class="cs-label">
+                Message...
+                <textarea class="cs-input cs-textarea" required name="Message" id="message-1389" placeholder="Write message..."></textarea>
             </label>
-            <button class="cs-button-solid" type="submit">Envoyer</button>
+            <button class="cs-button-solid cs-submit" type="submit">Envoyer</button>
         </form>
     </div>
 </section>
                                 
 
+   
 
-   <!-- ============================================ -->
+
+
+
+
+
+        <!-- ============================================ -->
 <!--                     CTA                      -->
 <!-- ============================================ -->
 
-<section id="cta-1072">
+<section id="cta-51">
     <div class="cs-container">
         <div class="cs-content">
-            <div class="cs-flex">
-               
-                <h2 class="cs-title">Prêt pour une séance découverte ?</h2>
-            </div>
-            <div class="cs-button-box">
-                <a href="mailto:docteurcycle@gmail.com" class="cs-button-solid">Email</a>
+           
+            <h2 class="cs-title">Prêt pour une séance découverte ?</h2>
+            <p class="cs-text">
                 
-                <a href="tel:07 67 46 32 52" class="cs-button-transparent">Téléphone</a>
-            </div>
+            </p>
+            <a href="" class="cs-button-solid">Contactez-Nous</a>
         </div>
     </div>
-    <picture class="cs-background">
-        <!--Mobile Image-->
-        <source media="(max-width: 600px)" srcset="test.png">
-        <!--Tablet and above Image-->
-        <source media="(min-width: 601px)" srcset="test.png">
-        <img loading="lazy" decoding="async" src="test.png" alt="mechanic" width="1280" height="568">
-    </picture>
+    <!-- Background Image-->
+    
 </section>
-                                
-    
-    
 
+
+
+
+
+
+                                
+                                
     </main>
 
     <!-- ============================================ -->
-    <!--                   Footer                     -->
+    <!--                     FOOTER                   -->
     <!-- ============================================ -->
 
-    <footer id="footer">
-        <div class="container">
-            <div class="left-section">
-                <a class="logo" href="/index.html"><img loading="lazy" decoding="async" src="dclog4.png" alt="logo" width="264" height="78"></a>
-                <p>
-                    Simple, Rapide, Économique
-                </p>
-            </div>
-            <div class="right-section">
-                <div class="lists">
-                    <ul>
-                        <li><h2>Information</h2></li>
-                        <li><a href="/index.html">Accueil</a></li>
-                        <li><a href="/about.html">Tarifs</a></li>
-                        
-                        
-                        <li><a href="/contact.html">Contact</a></li>
-                    </ul>
-                    <ul>
-                        <li><h2>Contact</h2></li>
-                        <li><a href="/contact.html">42 Rue de Soultz<br>67100 Strasbourg</a></li>
-                        <li><a href="tel:07 67 46 32 52">Tel : 07 67 46 32 52</a></li>
-                        <li><a href="mailto:docteurcycle@gmail.com">Envoyer un mail ></a></li>
-                    </ul>
-                    <ul>
-                        <li><h2>Horaires 7/7</h2></li>
-                        <li>Lundi : 08h00 à 20h00</li>
-                        <li>Mardi : 08h00 à 20h00</li>
-                        <li>Mercredi : 08h00 à 20h00</li>
-                        <li>Jeudi : 08h00 à 20h00</li>
-                        <li>Vendredi : 08h00 à 20h00</li>
-                        <li>Samedi : 08h00 à 20h00</li>
-                        <li>Dimanche : 10h00 à 20h00</li>
-                    </ul>
-                   
-                </div>
-            </div>
-        </div>
+    <!-- ============================================ -->
+<!--                  Footer                      -->
+<!-- ============================================ -->
 
-        <div class="credit">
-            <span>Conception par</span>
-            <a href="" target="_blank" rel="noopener">- Omnia Web Designs -</a>
-            <span class="copyright"> Copyright 2021 - Present</span></div>
-    </footer>
+<!-- ============================================ -->
+<!--                   Footer                     -->
+<!-- ============================================ -->
 
+<!-- ============================================ -->
+<!--                   Footer                     -->
+<!-- ============================================ -->
 
-    <script defer>
+<footer id="cs-footer-104">
+    <div class="cs-container">
        
-const navbarMenu = document.querySelector("#navigation #navbar-menu");
-const hamburgerMenu = document.querySelector("#navigation .hamburger-menu");
+        <span class="cs-copyright">© 2022 Copyright</span>
+    </div>
+</footer>
+                                
+                                
+                                
 
-hamburgerMenu.addEventListener('click', function() {
-    navbarMenu.classList.toggle("open");
-    hamburgerMenu.classList.toggle("clicked");
-});
-    </script>
+
+    <script defer src="/nav.js"></script>
     <script defer src="/dark.js"></script>
     <!--
         This script adds a class to the body after scrolling 100px
@@ -298,7 +305,7 @@ hamburgerMenu.addEventListener('click', function() {
     <script defer>
         document.addEventListener('scroll', (e) => { 
             const scroll = document.documentElement.scrollTop;
-            if(scroll >= 100){
+            if(scroll >= 0){
         document.querySelector('body').classList.add('scroll')
             } else {
             document.querySelector('body').classList.remove('scroll')
@@ -308,49 +315,56 @@ hamburgerMenu.addEventListener('click', function() {
 
 
 
+
+
 <script>
-    class CS_MenuFilter {
-    filtersSelector = '.cs-button'
-    menuSelector = '.cs-menu-group'
-    activeClass = 'cs-active'
-    hiddenClass = 'cs-hidden'
 
-    constructor() {
-        this.$menus = document.querySelectorAll(this.menuSelector)
-        const $filters = document.querySelectorAll(this.filtersSelector)
+// add classes for mobile navigation toggling
+    var CSbody = document.querySelector("body");
+    const CSnavbarMenu = document.querySelector("#cs-navigation");
+    const CShamburgerMenu = document.querySelector("#cs-navigation .cs-toggle");
 
-        this.onClick($filters[0])
+    CShamburgerMenu.addEventListener('click', function() {
+        CShamburgerMenu.classList.toggle("cs-active");
+        CSnavbarMenu.classList.toggle("cs-active");
+        CSbody.classList.toggle("cs-open");
+        // run the function to check the aria-expanded value
+        ariaExpanded();
+    });
 
-        for (const $filter of $filters) {
-            $filter.addEventListener('click', () => this.onClick($filter))
+    // checks the value of aria expanded on the cs-ul and changes it accordingly whether it is expanded or not 
+    function ariaExpanded() {
+        const csUL = document.querySelector('#cs-expanded');
+        const csExpanded = csUL.getAttribute('aria-expanded');
+
+        if (csExpanded === 'false') {
+            csUL.setAttribute('aria-expanded', 'true');
+        } else {
+            csUL.setAttribute('aria-expanded', 'false');
         }
     }
 
-    onClick($filter) {
-        this.filter($filter.dataset.filter)
-
-        const { activeClass } = this
-
-        this.$activeFilter?.classList.remove(activeClass)
-        $filter.classList.add(activeClass)
-
-        this.$activeFilter = $filter
-    }
-
-    filter(filter) {
-        const showAll = filter == 'all'
-        const { hiddenClass } = this
-
-        for (const $menu of this.$menus) {
-            const show = showAll || $menu.dataset.category == filter
-            $menu.classList.toggle(hiddenClass, !show)
+    // mobile nav toggle code
+    const dropDowns = Array.from(document.querySelectorAll('#cs-navigation .cs-dropdown'));
+        for (const item of dropDowns) {
+            const onClick = () => {
+            item.classList.toggle('cs-active')
         }
-    }
-}
-
-new CS_MenuFilter()
+        item.addEventListener('click', onClick)
+        }
                                 
-</script>
+       </script>
 
+
+
+
+
+
+
+
+
+
+<script src="object-fit-videos.js"></script>
+<script src="app.js"></script>
 </body>
 </html>
