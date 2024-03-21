@@ -93,7 +93,7 @@ p, h1, h2, h3, a, span{
         height: 100%;
         /* ensures the image never overflows the container. It stays contained within it's width and height and expands to fill it then stops once it reaches an edge */
         object-fit: contain;
-        scale: 2.75;
+        
     }
     #cs-navigation .cs-toggle {
         width: 3.5rem;
@@ -315,7 +315,7 @@ p, h1, h2, h3, a, span{
         height: 100%;
         /* ensures the image never overflows the container. It stays contained within it's width and height and expands to fill it then stops once it reaches an edge */
         object-fit: contain;
-        scale: 2.75;
+        
     }
     #cs-navigation .cs-ul-wrapper {
         /* absolutely positioned to be dead center */
@@ -783,5 +783,15 @@ p, h1, h2, h3, a, span{
     }
 }
 
+
+
+
+
+
+@media only screen and (min-width: 57.5rem) {
+#cs-navigation .cs-logo img{
+    scale: 2.75;
+}
+}
                                 
                                 
