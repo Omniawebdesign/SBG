@@ -1097,6 +1097,6 @@ body {
     color: var(--secondary);
     display: inline-block;
     position: relative;
-    animation: blink 1.7s linear infinite;
+    animation: blink 1.25s linear infinite;
   }
                                 
