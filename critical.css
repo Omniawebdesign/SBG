@@ -123,6 +123,7 @@
     z-index: 1;
     /* prevents padding from adding to the width */
     box-sizing: border-box;
+    background: rgba(0, 0, 0, .2);
   }
   #hero-1426 .cs-button-solid:before {
     content: "";
