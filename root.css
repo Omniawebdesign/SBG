@@ -681,6 +681,7 @@ p, h1, h2, h3, a, span{
         z-index: 1;
         /* prevents padding from adding to the width */
         box-sizing: border-box;
+        border-radius: 50px;
     }
     #cta-1072 .cs-button-solid:before {
         content: "";
