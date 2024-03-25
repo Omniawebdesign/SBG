@@ -789,7 +789,7 @@ body {
         min-width: 9.375rem;
         padding: 0 1.5rem;
         background-color: var(--primary);
-        border-radius: 0.25rem;
+        border-radius: 50px;
         display: inline-block;
         position: relative;
         z-index: 1;
