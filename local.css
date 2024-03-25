@@ -1099,4 +1099,185 @@ body {
     position: relative;
     animation: blink 1.25s linear infinite;
   }
+
+
+
+
+
+
+
+
+
+/*-- -------------------------- -->
+<---            FAQ             -->
+<--- -------------------------- -*/
+
+/* Mobile - 360px */
+@media only screen and (min-width: 0rem) {
+    #faq-993 {
+        padding: var(--sectionPadding);
+        position: relative;
+    }
+    #faq-993 .cs-container {
+        width: 100%;
+        max-width: 66.5rem;
+        margin: auto;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        /* 48px - 64px */
+        gap: clamp(3rem, 6vw, 4rem);
+    }
+    #faq-993 .cs-content {
+        /* set text align to left if content needs to be left aligned */
+        text-align: center;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        /* centers content horizontally, set to flex-start to left align */
+        align-items: center;
+    }
+
+    #faq-993 .cs-faq-group {
+        padding: 0;
+        margin: 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        gap: 0.75rem;
+    }
+    #faq-993 .cs-faq-item {
+        list-style: none;
+        width: 100%;
+        background-color: #f7f7f7;
+        /* clips all corners of the button that overlap the rounded border */
+        overflow: hidden;
+        transition: border-bottom 0.3s;
+    }
+    #faq-993 .cs-faq-item.active {
+        background-color: var(--headerColor);
+    }
+    #faq-993 .cs-faq-item.active .cs-button {
+        background-color: #1a1a1a;
+        color: var(--primary);
+        border-bottom: 1px solid #484848;
+    }
+    #faq-993 .cs-faq-item.active .cs-button:before {
+        background-color: var(--primary);
+        transform: rotate(315deg);
+    }
+    #faq-993 .cs-faq-item.active .cs-button:after {
+        background-color: var(--primary);
+        transform: rotate(-315deg);
+    }
+    #faq-993 .cs-faq-item.active .cs-item-p {
+        height: auto;
+        /* 20px - 24px top & bottom */
+        /* 16px - 24px left & right */
+        padding: clamp(1.25rem, 1.3vw, 1.5rem) clamp(1rem, 2vw, 1.5rem);
+        opacity: 1;
+        color: var(--bodyTextColorWhite);
+    }
+    #faq-993 .cs-button {
+        /* 16px - 20px */
+        font-size: clamp(1rem, 2vw, 1.25rem);
+        line-height: 1.2em;
+        text-align: left;
+        font-weight: bold;
+        /* 20px - 24px */
+        padding: clamp(1.25rem, 2vw, 1.5rem);
+        background-color: #f7f7f7;
+        border: none;
+        color: var(--headerColor);
+        display: block;
+        width: 100%;
+        position: relative;
+        transition:
+            background-color 0.3s,
+            color 0.3s;
+    }
+    #faq-993 .cs-button:hover {
+        cursor: pointer;
+    }
+    #faq-993 .cs-button:before {
+        /* left line */
+        content: "";
+        width: 0.5rem;
+        height: 0.125rem;
+        background-color: var(--headerColor);
+        opacity: 1;
+        border-radius: 50%;
+        position: absolute;
+        display: block;
+        top: 50%;
+        right: 1.5rem;
+        transform: rotate(45deg);
+        /* animate the transform from the left side of the x axis, and the center of the y */
+        transform-origin: left center;
+        transition: transform 0.5s;
+    }
+    #faq-993 .cs-button:after {
+        /* right line */
+        content: "";
+        width: 0.5rem;
+        height: 0.125rem;
+        background-color: var(--headerColor);
+        opacity: 1;
+        border-radius: 50%;
+        position: absolute;
+        display: block;
+        top: 50%;
+        right: 1.3125rem;
+        transform: rotate(-45deg);
+        /* animate the transform from the right side of the x axis, and the center of the y */
+        transform-origin: right center;
+        transition: transform 0.5s;
+    }
+    #faq-993 .cs-button-text {
+        width: 80%;
+        display: block;
+    }
+    #faq-993 .cs-item-p {
+        /* 14px - 16px */
+        font-size: clamp(0.875rem, 1.5vw, 1rem);
+        line-height: 1.5em;
+        width: 90%;
+        height: 0;
+        margin: 0;
+        /* 16px - 24px */
+        padding: 0 clamp(1rem, 2vw, 1.5rem);
+        opacity: 0;
+        color: var(--bodyTextColor);
+        /* clips the text so it doesn't show up */
+        overflow: hidden;
+        transition:
+            opacity 0.3s,
+            padding-bottom 0.3s;
+    }
+    #faq-993 .cs-floater1,
+    #faq-993 .cs-floater2 {
+        display: none;
+    }
+}
+/* Large Desktop - 1800px */
+@media only screen and (min-width: 112.5rem) {
+    #faq-993 .cs-floater1 {
+        width: 24.8125rem;
+        height: auto;
+        display: block;
+        position: absolute;
+        top: 0;
+        left: 0;
+    }
+    #faq-993 .cs-floater2 {
+        width: 20.125rem;
+        height: auto;
+        display: block;
+        position: absolute;
+        bottom: 0;
+        right: 0;
+    }
+}
+
                                 
