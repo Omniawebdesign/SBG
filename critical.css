@@ -116,8 +116,8 @@
     color: #FFF;
     min-width: 12.5rem;
     padding: 0 1.5rem;
-    background-color: var(--primary);
-    border-radius: 0.5rem;
+    border: 1px solid white;
+    border-radius: 50px;
     display: inline-block;
     position: relative;
     z-index: 1;
@@ -141,7 +141,9 @@
     width: 100%;
   }
   #hero-1426 .cs-button1 {
-    background-color: var(--secondary);
+    background-color: #FF0000;
+    color: white;
+    border: white;
   }
 }
                                 
