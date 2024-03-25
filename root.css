@@ -685,6 +685,7 @@ p, h1, h2, h3, a, span{
     #cta-1072 .cs-button-solid:before {
         content: "";
         position: absolute;
+        border-radius: 50px;
         height: 100%;
         width: 0%;
         background: #000;
