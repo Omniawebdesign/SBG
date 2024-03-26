@@ -126,7 +126,7 @@
     background: rgba(0, 0, 0, .2);
   }
   #hero-1426 .cs-button-solid:before {
-    content: "";
+    
     position: absolute;
     height: 100%;
     width: 0%;
