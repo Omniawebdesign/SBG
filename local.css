@@ -1282,12 +1282,12 @@ body {
 
 
 
-cs-item-o{
+.cs-item-o{
     color: white;
     opacity: 0.9;
 }
 
-cs-item-t{
+.cs-item-t{
   
     opacity: 0.9;
 }
